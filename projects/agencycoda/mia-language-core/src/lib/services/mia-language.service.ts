@@ -7,7 +7,7 @@ import { MiaLanguage } from '../entities/mia-language';
 @Injectable({
   providedIn: 'root'
 })
-export class MiaPageHttpService extends MiaBaseCrudHttpService<MiaLanguage> {
+export class MiaLanguageService extends MiaBaseCrudHttpService<MiaLanguage> {
 
   constructor(
     @Inject(MIA_CORE_PROVIDER) protected config: MiaCoreConfig,
