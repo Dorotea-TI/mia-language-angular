@@ -2,6 +2,17 @@
  * Public API Surface of mia-language-core
  */
 
-export * from './lib/mia-language-core.service';
-export * from './lib/mia-language-core.component';
+/**
+ * Entities
+ */
+ export * from './lib/entities/mia-language';
+
+/**
+ * Serviecs
+ */
+ export * from './lib/services/mia-language.service';
+
+/**
+ * Modules
+ */
 export * from './lib/mia-language-core.module';
