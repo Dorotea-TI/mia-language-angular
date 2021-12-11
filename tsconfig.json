@@ -2,6 +2,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@agencycoda/mia-language-core": [
+        "dist/agencycoda/mia-language-core/agencycoda-mia-language-core",
+        "dist/agencycoda/mia-language-core"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
