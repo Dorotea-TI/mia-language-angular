@@ -13,7 +13,7 @@ export class MiaLanguageService extends MiaBaseCrudHttpService<MiaLanguage> {
     @Inject(MIA_CORE_PROVIDER) protected config: MiaCoreConfig,
     protected http: HttpClient
   ) {
-    super(http);
+    super(config, http);
     this.basePathUrl = config.baseUrl + 'mia-language';
   }
 }
