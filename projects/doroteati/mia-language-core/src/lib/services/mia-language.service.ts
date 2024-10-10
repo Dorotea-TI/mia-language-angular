@@ -1,8 +1,8 @@
 import { Inject, Injectable } from '@angular/core';
-import { MiaBaseCrudHttpService, MiaCoreConfig, MIA_CORE_PROVIDER } from '@agencycoda/mia-core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { MiaLanguage } from '../entities/mia-language';
+import { MIA_CORE_PROVIDER, MiaBaseCrudHttpService, MiaCoreConfig } from '@doroteati/mia-core';
 
 @Injectable({
   providedIn: 'root'

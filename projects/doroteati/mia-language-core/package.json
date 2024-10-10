@@ -1,10 +1,10 @@
 {
-  "name": "@agencycoda/mia-language-core",
+  "name": "@doroteati/mia-language-core",
   "version": "13.1.0",
   "peerDependencies": {
     "@angular/common": ">=13.1.0",
     "@angular/core": ">=13.1.0",
-    "@agencycoda/mia-core": ">=13.1.0"
+    "@doroteati/mia-core": ">=13.1.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
